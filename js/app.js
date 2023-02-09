@@ -1,8 +1,8 @@
 'use strict';
 
-console.log('Hello')
+console.log('Hello');
 
-let userName = prompt('What is your name?')
+let userName = prompt('What is your name?');
 
 alert(`Hello, hope your doing well ${userName}! Games keeps us all on our toes..please answer yes or no`);
 
@@ -19,7 +19,7 @@ let questionTwoGuess = prompt('At any given time ther are 22 players on a footba
 if (questionTwoGuess === 'yes' || questionTwoGuess === 'y'){
   alert('Corret!');
 } else if(questionTwoGuess === 'no' || questionTwoGuess === 'n'){
-  alert('Maybe next time')
+  alert('Maybe next time');
 }
 
 let questionThreeGuess = prompt('First downs are every 20 yards').toLowerCase();
@@ -27,7 +27,7 @@ let questionThreeGuess = prompt('First downs are every 20 yards').toLowerCase();
 if (questionThreeGuess === 'no' || questionThreeGuess === 'n'){
   alert('Yes your right!');
 } else if(questionThreeGuess === 'yes' || questionThreeGuess === 'y'){
-  alert('Maybe next time')
+  alert('Maybe next time');
 }
 
 let questionFourGuess = prompt('Helmets protect players from concussions').toLowerCase();
@@ -35,7 +35,7 @@ let questionFourGuess = prompt('Helmets protect players from concussions').toLow
 if (questionFourGuess === 'yes' || questionFourGuess === 'y'){
   alert('Right again!');
 } else if(questionFourGuess === 'no' || questionfourGuess === 'n'){
-  alert('Maybe next time')
+  alert('Maybe next time');
 }
 
 let questionFiveGuess = prompt('If you score the most points you win').toLowerCase();
@@ -43,7 +43,7 @@ let questionFiveGuess = prompt('If you score the most points you win').toLowerCa
 if (questionFiveGuess === 'yes' || questionFiveGuess === 'y'){
   alert('Your Big Time Now!');
 } else if(questionFiveGuess === 'no' || questionFiveGuess === 'n'){
-  alert('Sorry')
+  alert('Sorry');
 }
 
 
